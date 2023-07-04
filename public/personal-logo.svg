@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="background-color: transparent;">
+  <defs>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 512 512" id="notches">
+      <path d="M213.66,133.66l-80,80a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,11.32Zm-16-99.32a8,8,0,0,0-11.32,0l-152,152a8,8,0,0,0,11.32,11.32l152-152A8,8,0,0,0,197.66,34.34Z" />
+    </svg>
+  </defs>
+  <path d="M20 3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9.9 11.6l-3.5-2.5 1.2-1.6 2.3 1.7 4-5 1.5 1.2-5.5 7.2zm4.4-3.5l-1.2 1.6-2.3-1.7-4 5-1.5-1.2 5.5-7.2 3.5 2.5-1.2 1.6z" />
+  <use href="#notches" x="14" y="13" width="15" height="15" style="z-index: 1;"/>
+  <text x="50%" y="50%" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff" dy=".25em" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">𝓝</text>
+</svg>
