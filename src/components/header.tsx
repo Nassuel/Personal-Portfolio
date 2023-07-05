@@ -14,8 +14,8 @@ export default function Header() {
                 mirrored: false,
             }}
         >
-            <header className="bg-transparent"> {/* sticky */}
-                <div className="navbar max-w-[60%] my-0 mx-auto">
+            <header> {/* sticky */}
+                <div className="navbar my-0 mx-auto max-w-[60%] bg-transparent">
                     <div className="navbar-start">
                         <button className="btn btn-square btn-ghost" onClick={() => {navigate("/")}}>
                             <img src={logo} alt="Logo" className="h-[3rem] w-[3rem] p-0" />
