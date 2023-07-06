@@ -20,7 +20,7 @@ export default function Header() {
                         <button className="btn btn-square btn-ghost" onClick={() => {navigate("/")}}>
                             <img src={logo} alt="Logo" className="h-[3rem] w-[3rem] p-0" />
                         </button>
-                        <h1 className="font-extrabold text-xl text-transparent pl-4 bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%" >
+                        <h1 className="font-extrabold text-xl text-transparent pl-4 bg-clip-text bg-gradient-to-r from-indigo-500 to-emerald-500" >
                             { window.location.pathname.slice(1).replace(/\b(\w)/g, (match) => match.toUpperCase()) }
                         </h1>
                     </div>
