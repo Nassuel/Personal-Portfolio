@@ -2,7 +2,8 @@ import logo from "/personal-logo.png";
 import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
 import daisyLogo from "/daisy.svg";
-import { GithubLogo, IconContext, InstagramLogo, LinkedinLogo, PhosphorLogo } from "@phosphor-icons/react";
+import bentoLogo from "/bento.svg";
+import { GithubLogo, IconContext, InstagramLogo, LinkedinLogo, PhosphorLogo, SquareHalfBottom } from "@phosphor-icons/react";
 
 
 export default function Footer() {
@@ -53,6 +54,12 @@ export default function Footer() {
                             target="_blank"
                         >
                             <GithubLogo />
+                        </a>
+                        <a
+                            href="https://bento.me/nassuel"
+                            target="_blank"
+                        >
+                            <SquareHalfBottom />
                         </a>
                     </div>
                 </div>

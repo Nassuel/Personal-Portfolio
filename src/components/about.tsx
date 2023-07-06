@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function About() {
     return (
         <div className="grid grid-cols-3 place-items-center gap-4 h-full max-w-[60%] my-auto mx-auto bg-transparent">
-            <div className="place-self-start">
-                <h1 className="font-extralight">Hello, my name is</h1>
+            <div className="text-center place-self-start w-3/4">
+                Hello, my name is
             </div>
             <div className="">
                 {/* <img
@@ -15,7 +17,7 @@ export default function About() {
                 </h1>
             </div>
             <div className="text-center place-self-end w-3/4">
-                Previously at
+                Previously at&nbsp;
                 <a href="https://www.t-mobile.com" target="_blank">
                     <span className="text-transparent bg-clip-text bg-pink-700 hover:bg-pink-400">
                         T-Mobile
@@ -23,6 +25,15 @@ export default function About() {
                 </a>. I'm a
                 <h1 className="text-center text-2xl my-1 bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-500">Software Engineer</h1>
                 And looking for my next opportunity!
+                <br/>
+                <Link to="/resume" className="relative">
+                    <span className="animate-ping absolute text-transparent bg-clip-text bg-pink-700 hover:bg-pink-400">
+                        More...
+                    </span>
+                    <span className="relative text-transparent bg-clip-text bg-pink-700 hover:bg-pink-400">
+                        More...
+                    </span>
+                </Link>
             </div>
         </div>
     );
