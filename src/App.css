@@ -1,0 +1,7 @@
+.contact-img_crop {
+  width: 45rem;
+  height: 45rem;
+  object-fit: fill;
+  object-position: 50% 0%;
+
+}

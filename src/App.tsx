@@ -1,10 +1,11 @@
 import './App.css'
-import Header from './components/header'
+import Header from './components/static/header'
 import Landing from './components/landing'
-import Footer from './components/footer'
+import Footer from './components/static/footer'
 import { BrowserRouter as Router, Route, Routes, Outlet } from "react-router-dom";
 import { NoMatch } from './components/NoMatch'
 import About from './components/about';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="about" element={<About />}></Route>
           <Route path="resume" element={<Landing />}></Route>
           <Route path="portfolio" element={<Landing />}></Route>
-          <Route path="contact" element={<Landing />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
           <Route path="*" element={<NoMatch />} /> {/* Redirects back to home */}
         </Route>
       </Routes>
